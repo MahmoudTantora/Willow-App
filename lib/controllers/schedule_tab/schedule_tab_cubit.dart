@@ -1,0 +1,1 @@
+import 'package:bloc/bloc.dart';/// we use this controller to navigate between custom screens tabs itemclass ScheduleTabCubit extends Cubit<int> {  ScheduleTabCubit() : super(1);  changeScheduleTab(int tabNum) {    emit(tabNum);  }}

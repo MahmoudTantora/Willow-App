@@ -1,0 +1,1 @@
+///we use this model to represent schedules data that come form apiclass ScheduleModel {  final String title;  final String specialized;  final String image;  final String date;  final String status;  ScheduleModel({    required this.title,    required this.specialized,    required this.image,    required this.date,    required this.status,  });}

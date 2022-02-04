@@ -1,0 +1,1 @@
+import 'package:bloc/bloc.dart';/// we use this controller to navigate between bottom navigation screensclass BottomTabCubit extends Cubit<int> {  BottomTabCubit() : super(1);  changeBottomTab(int tabNumber) {    emit(tabNumber);  }}
